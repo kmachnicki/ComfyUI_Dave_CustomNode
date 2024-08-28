@@ -21,7 +21,7 @@ class MultiAreaConditioning:
 
 
     RETURN_TYPES = ("CONDITIONING", "INT", "INT")
-    RETURN_NAMES = (None, "resolutionX", "resolutionY")
+    RETURN_NAMES = ("CONDITIONING", "resolutionX", "resolutionY")
     FUNCTION = "doStuff"
     CATEGORY = "Davemane42"
 
